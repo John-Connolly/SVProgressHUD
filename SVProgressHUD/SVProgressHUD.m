@@ -1310,7 +1310,7 @@ static const CGFloat SVProgressHUDLabelSpacing = 8.0f;
     }
     
     // Update styling
-    _statusLabel.textColor = self.foregroundColorForStyle;
+    _statusLabel.textColor = UIColor.blackColor;
     _statusLabel.font = self.font;
 
     return _statusLabel;
